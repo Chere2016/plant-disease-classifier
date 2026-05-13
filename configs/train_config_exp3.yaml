@@ -1,0 +1,12 @@
+# configs/train_config_exp3.yaml
+
+experiment_name: "plant_disease_cnn_exp3_regularized"
+data_dir: "data"
+
+# Hyperparameters
+num_epochs: 30
+batch_size: 32
+
+# We start with the base learning rate again, but our new scheduler will 
+# automatically divide it by 10 if the validation loss stops improving!
+learning_rate: 0.001

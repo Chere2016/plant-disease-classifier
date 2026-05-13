@@ -1,0 +1,11 @@
+# configs/train_config_exp4.yaml
+
+experiment_name: "plant_disease_cnn_exp4_100epochs"
+data_dir: "data"
+
+# Hyperparameters
+num_epochs: 100
+batch_size: 32
+
+# The scheduler will automatically lower this when validation loss plateaus
+learning_rate: 0.001

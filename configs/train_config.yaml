@@ -1,0 +1,10 @@
+# configs/train_config.yaml
+
+# General Settings
+experiment_name: "plant_disease_cnn_scratch"
+data_dir: "data"
+
+# Hyperparameters
+num_epochs: 20
+batch_size: 16
+learning_rate: 0.001

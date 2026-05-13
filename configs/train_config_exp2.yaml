@@ -1,0 +1,13 @@
+# configs/train_config_exp2.yaml
+
+# General Settings
+# Changing the name so WandB tracks it as a separate run!
+experiment_name: "plant_disease_cnn_exp2_low_lr"
+data_dir: "data"
+
+# Hyperparameters
+# For this second experiment, let's try a smaller learning rate to see if it learns 
+# more smoothly and avoids validation loss spikes.
+num_epochs: 25
+batch_size: 32
+learning_rate: 0.0001

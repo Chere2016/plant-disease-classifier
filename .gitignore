@@ -1,0 +1,15 @@
+# Ignore data and heavy model weights
+data/
+models/
+
+# Ignore logs and Weights & Biases data
+logs/
+wandb/
+*.log
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
