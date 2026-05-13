@@ -9,11 +9,13 @@ After pushing the architecture to its mathematical limits with rigorous L2 regul
 ## 📸 See It In Action!
 Here is the model running inference on completely unseen images. Notice the incredible confidence levels!
 
-![Tomato Early Blight Prediction](assets/prediction_tomato.png)
+![Tomato Early Blight Prediction](assets/tomotaearlyblight.png)
 
-![Apple Cedar Rust Prediction](assets/prediction_apple.png)
+![Apple Cedar Rust Prediction](assets/applecedarrust.png)
 
-![Potato Healthy Prediction](assets/prediction_potato.png)
+![Tomato Healthy Prediction](assets/tomota_health.png)
+
+![Apple Scab Prediction](assets/applescab.png)
 
 ## 🛠️ The Tech Stack & Features
 - **The Brain**: A highly optimized Custom CNN designed for 224x224 RGB images. No pre-trained weights here—it learned everything from scratch!
